@@ -1,5 +1,7 @@
 # FantasyFootballWeatherApplication
-A website that allows users to look up Fantasy Football Stats specific to weather conditions.
+<b>A website that allows users to look up Fantasy Football Stats specific to weather conditions.</b>
+
+<b><h1>DATABASE DESIGN</h1></b>
 
 I used the ASP.NET MVC Code First for the construction of my SQL Server Database. <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/DBDiagram.PNG">VIEW DATABASE DIAGRAM HERE</a> 
 
