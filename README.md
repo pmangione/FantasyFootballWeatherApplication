@@ -1,9 +1,9 @@
 # FantasyFootballWeatherApplication
 A website that allows users to look up Fantasy Football Stats specific to weather conditions.
 
-I used the ASP.NET MVC Code First for the construction of my SQL Server Database.  
+I used the ASP.NET MVC Code First for the construction of my SQL Server Database. <a href="https://github.com/pmangione/Tech-Academy-Projects/blob/master/LiveProject/CodeSnippets/AddCalulatedPropertyToJobApplicationClass.cs">VIEW DATABASE DIAGRAM HERE</a> 
 
-The Game model contains details about each specific game such as date, temperature, and windspeed.  VIEW THE GAME MODEL FILE HERE.
+The Game model contains details about each specific game such as date, temperature, and windspeed.  
 
 The QBGame model contains a quarterback's statistics for each game that they played in such as touchdown passes and passing yards.  The QBPlayer model contains information specific to each player such as first and last name. 
 
