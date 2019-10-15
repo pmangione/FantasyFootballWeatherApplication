@@ -29,24 +29,24 @@ I used model binding to pass many of my values from user entry forms to the cont
 
 4) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ControllerCodeSnippetThatReceivesFormValues.PNG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object.  The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
 
-A) In the long line of code that starts with "var viewmodellist....", I have highlited in yellow where this value is passed to a method used to retrieve games played under certain weather conditions.  We won't get into the specifics of how that method works in this discussion.
+A) In the long line of code that starts with "var viewmodellist....", I have highlighted in yellow where this value is passed to a method used to retrieve games played under certain weather conditions.  We won't get into the specifics of how that method works in this discussion.
 
-B) In the bottom 3 highlited lines, the WindSpeedGreaterOrLessThan is passed to another model(QBStatsSummarySpecificWeather), and that model is actually a property of another model(QBVM).  QBVM is then passed to another view with the QBStatsSummarySpecificWeather wrapped inside of it.   
+B) In the bottom 3 highlighted lines, the WindSpeedGreaterOrLessThan is passed to another model(QBStatsSummarySpecificWeather), and that model is actually a property of another model(QBVM).  QBVM is then passed to another view with the QBStatsSummarySpecificWeather wrapped inside of it.   
 
-So why use model binding and not the FormCollection?  There are many reasons why I did not want to use FormCollection.  To me, the most important reason is my goal to avoid retrieving values in the controller that are not strongly typed to the QBPlayer model.  For example, I might misspell "WindSpeedGreaterOrLessThan" as "WindSpeedGreaterOrLessThEn" when trying to pull the value from FormCollection.  The intellisense in Visal Studio would not alert me to this error and I might end up running the code and waste time trouble-shooting the issue.  However, with model binding, the intellisense will alert me to this error.    
+So why use model binding and not the FormCollection?  There are many reasons why I did not want to use FormCollection.  To me, the most important reason is my goal to avoid retrieving values in the controller that are not strongly typed to the QBPlayer model.  For example, I might misspell "WindSpeedGreaterOrLessThan" as "WindSpeedGreaterOrLessThEn" when trying to pull the value from FormCollection.  The intellisense in Visual Studio would not alert me to this error and I might end up running the code and waste time trouble-shooting the issue.  However, with model binding, the intelliSense will alert me to this error.    
 
 
 <b><h1>HELPER METHODS</h1></b>
 
 For this project, I created many "Helper Methods" for several reasons:
-1) Resusability
+1) Reusability
 2) Code Readability
 
-<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodsUsedInController.PNG"> This is an example of how one of the Helper Methods in used in the Controller.</a>  I have highlited several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specif to game performance of the quarterback.  Note that in the controller, the method is used in two different places:  
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodsUsedInController.PNG"> This is an example of how one of the Helper Methods in used in the Controller.</a>  I have highlighted several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specific to game performance of the quarterback.  Note that in the controller, the method is used in two different places:  
 
-A) In the top highited line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
+A) In the top highlighted line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
 
-B) In the bottom line of highlited code, it's used to create a list of games played by the quarterback that is eventually attached to a model used by the View. 
+B) In the bottom line of highlighted code, it's used to create a list of games played by the quarterback that is eventually attached to a model used by the View. 
 
 Because the makeQBVMGameListForSpecificQB method is several lines of code, the code is more readable if it is abstracted away.  Moreover, if a 2nd developer came into the project and needed change the way in which the resulting list from the method was handled, they could clearly see where to go in the code.     In addition, if changes were needed for the makeQBVMGameListForSpecificQB itself, the changes would only need to be made in one place.
 
