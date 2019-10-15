@@ -34,3 +34,27 @@ A) In the long line of code that starts with "var viewmodellist....", I have hig
 B) In the bottom 3 highlited lines, the WindSpeedGreaterOrLessThan is passed to another model(QBStatsSummarySpecificWeather), and that model is actually a property of another model(QBVM).  QBVM is then passed to another view with the QBStatsSummarySpecificWeather wrapped inside of it.   
 
 So why use model binding and not the FormCollection?  There are many reasons why I did not want to use FormCollection.  To me, the most important reason is my goal to avoid retrieving values in the controller that are not strongly typed to the QBPlayer model.  For example, I might misspell "WindSpeedGreaterOrLessThan" as "WindSpeedGreaterOrLessThEn" when trying to pull the value from FormCollection.  The intellisense in Visal Studio would not alert me to this error and I might end up running the code and waste time trouble-shooting the issue.  However, with model binding, the intellisense will alert me to this error.    
+
+
+<b><h1>HELPER METHODS</h1></b>
+
+For this project, I created many "Helper Methods" for several reasons:
+1) Resusability
+2) Code Readability
+
+As an example, open the "HelperMethodInController" image.  I have highlited several lines of code that contain a method called "makeQBVMGameListForSpecificQB".  QBVM is my Quarterback View Model which contains data specif to game performance of the quarterback.  
+
+Note that in the controller, the method is used in two different places.  
+
+In the top highited line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
+
+In the bottom line of code, it's used to create a list of games played by the quarterback that is eventually passed attached to a model used by the View. 
+
+Because the makeQBVMGameListForSpecificQB method is several lines of code, the code is more readable if it is abstracted away.  Moreover, if a 2nd developer came into the project and needed change the way in which the resulting list from the method was handled, they could clearly see where to go in the code.     In addition, if changes were needed for the makeQBVMGameListForSpecificQB itself, the changes would only need to be made in one place.
+
+Now open the "MakeQBVMGameList" image.  This is actual method.  Note for the sake of readability and reusability, there are several helper methods within this method that are also abstracted away.  Also note the use of the LINQ operator "OrderByDescending" for the GameDate.  This is used so that the website user can view the most recent games first.    
+
+To see an example of the list of games, open the "ScreenShotGameByQB" file. 
+
+
+
