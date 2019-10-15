@@ -52,7 +52,7 @@ Because the makeQBVMGameListForSpecificQB method is several lines of code, the c
 
 <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodMakeQBVmGameList.PNG"> This is the actual makeQBVMGameListForSpecificQB method.</a>  Note for the sake of readability and reusability, there are several helper methods within this method that are also abstracted away.  Also note the use of the LINQ operator "OrderByDescending" for the GameDate.  This is used so that the website user can view the most recent games first.    
 
-To see an example of the list of games, open the "ScreenShotGameByQB" file. 
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ScreenShotGamesByQB.PNG"> This is an example of the list of games ordered by date in descending order.</a>
 
 
 
