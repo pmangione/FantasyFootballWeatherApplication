@@ -27,7 +27,7 @@ I used model binding to pass many of my values from user entry forms to the cont
 
 3) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormCodeSnippet.PNG"> This is a code snippet from the "View" for the user entry form.</a>  I have circled the QBPlayer model reference on the top and also the line of code in which the value is bound to the "WindSpeedGreaterOrLessThan" property of the QBPlayerModel object. 
 
-4) Click the image that starts with "ClickFourth..."  This is the code for the part of the "Controller" that is passed the "WindSpeedGreaterOrLessThan" value.  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object, the value can be easily accessed.  
+4)<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ControllerCodeSnippetThatReceivesFormValues.PNG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object, the value can be easily accessed.  
 
 The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
 
