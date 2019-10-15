@@ -25,7 +25,7 @@ I used model binding to pass many of my values from user entry forms to the cont
 
 2) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/QBPlayerDataModel.PNG">  This is the QBPlayer data model.</a>  The "WindspeedGreaterOrLessThan" is a "NotMapped" value because I do not want it going into the database.  It will be used to hold a temporary value of the user preference.
 
-3) Click the image that starts with "ClickThird...."  This is code for the "View" for the user entry form.  I have circled the QBPlayer model reference on the top and also the line of code in which the value is bound to the "WindSpeedGreaterOrLessThan" property of the QBPlayerModel object. 
+3) <a href"https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormCodeSnippet.PNG"> This is a code snippet from the "View" for the user entry form.</a>  I have circled the QBPlayer model reference on the top and also the line of code in which the value is bound to the "WindSpeedGreaterOrLessThan" property of the QBPlayerModel object. 
 
 4) Click the image that starts with "ClickFourth..."  This is the code for the part of the "Controller" that is passed the "WindSpeedGreaterOrLessThan" value.  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object, the value can be easily accessed.  
 
