@@ -1,7 +1,7 @@
 # FantasyFootballWeatherApplication
 <b>A website that allows users to look up Fantasy Football Stats specific to weather conditions.</b>
 <b>https://www.overunderfantasyweather.com/</b>
-While I am not allowed to post the entire code repository for this application, here are some highlights and code snippets.
+<br>While I am not allowed to post the entire code repository for this application, here are some highlights and code snippets.
 
 
 <b><h1>DATABASE DESIGN</h1></b>
