@@ -46,11 +46,11 @@ For this project, I created many "Helper Methods" for several reasons:
 
 A) In the top highited line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
 
-B) In the bottom line of code, it's used to create a list of games played by the quarterback that is eventually attached to a model used by the View. 
+B) In the bottom line of highlited code, it's used to create a list of games played by the quarterback that is eventually attached to a model used by the View. 
 
 Because the makeQBVMGameListForSpecificQB method is several lines of code, the code is more readable if it is abstracted away.  Moreover, if a 2nd developer came into the project and needed change the way in which the resulting list from the method was handled, they could clearly see where to go in the code.     In addition, if changes were needed for the makeQBVMGameListForSpecificQB itself, the changes would only need to be made in one place.
 
-Now open the "MakeQBVMGameList" image.  This is actual method.  Note for the sake of readability and reusability, there are several helper methods within this method that are also abstracted away.  Also note the use of the LINQ operator "OrderByDescending" for the GameDate.  This is used so that the website user can view the most recent games first.    
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodMakeQBVmGameList.PNG"> This is the actual makeQBVMGameListForSpecificQB method.</a>  Note for the sake of readability and reusability, there are several helper methods within this method that are also abstracted away.  Also note the use of the LINQ operator "OrderByDescending" for the GameDate.  This is used so that the website user can view the most recent games first.    
 
 To see an example of the list of games, open the "ScreenShotGameByQB" file. 
 
