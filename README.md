@@ -5,7 +5,7 @@
 
 <b><h1>DATABASE DESIGN</h1></b>
 
-I used the ASP.NET MVC Code First for the construction of the SQL Server Database. <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/DBDiagram.PNG">VIEW DATABASE DIAGRAM HERE</a> 
+I used ASP.NET MVC Code First for the construction of the SQL Server Database. <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/DBDiagram.PNG">VIEW DATABASE DIAGRAM HERE</a> 
 
 The Game model contains details about each specific game such as date, temperature, and windspeed.  
 
