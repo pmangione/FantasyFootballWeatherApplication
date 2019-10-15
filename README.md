@@ -42,13 +42,11 @@ For this project, I created many "Helper Methods" for several reasons:
 1) Resusability
 2) Code Readability
 
-<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodsUsedInController.PNG"> This is an example of how one of the Helper Methods in used in the Controller.</a>  I have highlited several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specif to game performance of the quarterback.  
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperMethodsUsedInController.PNG"> This is an example of how one of the Helper Methods in used in the Controller.</a>  I have highlited several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specif to game performance of the quarterback.  Note that in the controller, the method is used in two different places:  
 
-Note that in the controller, the method is used in two different places.  
+A) In the top highited line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
 
-In the top highited line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
-
-In the bottom line of code, it's used to create a list of games played by the quarterback that is eventually passed attached to a model used by the View. 
+B) In the bottom line of code, it's used to create a list of games played by the quarterback that is eventually attached to a model used by the View. 
 
 Because the makeQBVMGameListForSpecificQB method is several lines of code, the code is more readable if it is abstracted away.  Moreover, if a 2nd developer came into the project and needed change the way in which the resulting list from the method was handled, they could clearly see where to go in the code.     In addition, if changes were needed for the makeQBVMGameListForSpecificQB itself, the changes would only need to be made in one place.
 
