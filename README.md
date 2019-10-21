@@ -22,7 +22,7 @@ I realize this is not the ideal way to build a database, but because I needed to
 
 I used model binding to pass many of my values from user entry forms to the controller.  For the sake of simplicity, let's follow one value through this process. The value relates to wind speed and is the dropdown on the user-entry form in which the user can choose "Greater Or Equal Than" OR "Less Or Equal Than". 
 
-1) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormWebsiteScreenShot.PNG">  This is the what the user-entry form looks like on the website</a>.  I have circled the windspeed greater-or-less than dropdown.
+1) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormWebsiteScreenShot.PNG">  This is the what the user-entry form looks like on the website</a>.  I have circled the windspeed greater-or-equal than dropdown.
 
 2) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/QBPlayerDataModel.PNG">  This is the QBPlayer data model.</a>  The "WindspeedGreaterOrLessThan" is a "NotMapped" value because I do not want it going into the database.  It will be used to hold a temporary value of the user preference.
 
