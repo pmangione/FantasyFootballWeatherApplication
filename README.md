@@ -37,7 +37,7 @@ B) In the bottom 3 highlighted lines, the WindSpeedGreaterOrLessThan is passed t
 So why use model binding and not the FormCollection?  There are many reasons why I did not want to use FormCollection.  To me, the most important reason is my goal to avoid retrieving values in the controller that are not strongly typed to the QBPlayer model.  For example, I might misspell "WindSpeedGreaterOrLessThan" as "WindSpeedGreaterOrLessThEn" when trying to pull the value from FormCollection.  The intellisense in Visual Studio would not alert me to this error and I might end up running the code and waste time trouble-shooting the issue.  However, with model binding, the intelliSense will alert me to this error.    
 
 
-<b><h1>HELPER METHODS</h1></b>
+<b><h1><a id="HelperMethods">HELPER METHODS</h1></b>
 
 For this project, I created many "Helper Methods" for several reasons:
 1) Reusability
