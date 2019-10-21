@@ -43,7 +43,7 @@ For this project, I created many "Helper Methods" for several reasons:
 1) Reusability
 2) Code Readability
 
-<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperUsedInControllerCorrect.PNG"> This is an example of how one of the Helper Methods in used in the Controller.</a>  I have highlighted several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specific to game performance of the quarterback.  Note that in the controller, the method is used in two different places:  
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/HelperUsedInControllerCorrect.PNG"> This is an example of how one of the Helper Methods in the Controller.</a>  I have highlighted several lines of code where the method, called "makeQBVMGameListForSpecificQB", is used.  QBVM is my Quarterback View Model which contains data specific to game performance of the quarterback.  Note that in the controller, the method is used in two different places:  
 
 A) In the top highlighted line of code, it's used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
 
