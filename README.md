@@ -18,7 +18,7 @@ So why do I have have a GameID field? This is actually my primary key.  Initiall
 
 I realize this is not the ideal way to build a database, but because I needed to launch this quickly it became the best option in terms of time-saved and flexibility.  If this database becomes bigger and more complex or I decided to add sensitive data (like user information), I will reconstruct the database with more rigorous standards.   
 
-<b><h1>MODEL BINDING</h1></b>
+<b><h1><a id="ModelBinding">MODEL BINDING</a></h1></b>
 
 I used model binding to pass many of my values from user entry forms to the controller.  For the sake of simplicity, let's follow one value through this process. The value relates to wind speed and is the dropdown on the user-entry form in which the user can choose "Greater Or Equal Than" OR "Less Or Equal Than". 
 
