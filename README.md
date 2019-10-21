@@ -4,7 +4,7 @@
 <br><br><b>While I am not allowed to post the entire code repository for this application, here are some highlights and code snippets.</b>
 
 
-<b><h1><a id="#DBDesign">DATABASE DESIGN</a></h1></b>
+<b><h1><a id="DBDesign">DATABASE DESIGN</a></h1></b>
 
 I used ASP.NET MVC Code First for the construction of the SQL Server Database. <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/DBDiagram.PNG">VIEW DATABASE DIAGRAM HERE</a> 
 
