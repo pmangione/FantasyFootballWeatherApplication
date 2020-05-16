@@ -5,6 +5,10 @@
 
 <b><h1><a id="DBDesign">YOUTUBE VIDEO SERIES SHOWING WEBSITE DESIGN, CODING HIGHLIGHTS, AND CLEAN CODE APPROACH</a></h1></b>
 
+I enjoy talking about code almost as much as I enjoy writing code.  That is why I made 18 YouTube videos disucssing how I coded certain sections of this website.  These videos are divided into 2 series which are listed below.
+
+<b>My Coding Style</b> - A 9 part video series showing the advantage of using long and descriptive variable names combined with short methods. 
+
 
 <b><h1><a id="DBDesign">DATABASE DESIGN</a></h1></b>
 
