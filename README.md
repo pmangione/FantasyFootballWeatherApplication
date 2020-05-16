@@ -9,6 +9,8 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <b>My Coding Style</b> - A 9 part video series showing the advantage of using long and descriptive variable names combined with short methods. 
 
+ <a href="https://www.youtube.com/watch?v=ia_3N-EiekQ ">Part 1: An Introduction to My Coding Style</a>
+
 
 <b><h1><a id="DBDesign">DATABASE DESIGN</a></h1></b>
 
