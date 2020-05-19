@@ -17,8 +17,7 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=JtLzyGSdn_Q">Part 4: Pass Query Records To a List of ViewModels</a>
 
-<a href="https://www.youtube.com/watch?v=JtLzyGSdn_Q">Part 5: Pass Query Records To a List of ViewModels</a>">Part 4: Pass Query Records To a List of ViewModels</a>
-
+<a href="https://www.youtube.com/watch?v=JtLzyGSdn_Q">Part 5: Filter List of ViewModels Based on Weather Conditions</a>
 
 
 
