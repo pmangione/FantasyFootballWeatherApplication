@@ -15,6 +15,9 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=xM_DcRNaBRw&t=153s">Part 3: Create Helper Method to Query Database</a>
 
+<a href="https://www.youtube.com/watch?v=JtLzyGSdn_Q">Part 4: Pass Query Records To a List of ViewModels</a>
+
+
 
 
 
