@@ -25,8 +25,7 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=HUEHPfVxcH4">Part 8: Why ViewModel Includes Certain Fields</a>
 
-
-
+<a href="https://www.youtube.com/watch?v=1KTsrCnfeq0">Part 9: Final Summary of My Coding Style</a>
 
 
 
