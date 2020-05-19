@@ -23,6 +23,11 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=d3F4iwkJ_ac">Part 7: Using Polymorphism With ViewModels</a>
 
+<a href="https://www.youtube.com/watch?v=HUEHPfVxcH4">Part 8: Why ViewModel Includes Certain Fields</a>
+
+
+
+
 
 
 <b>Website Overview, Database Structure, and Using ViewModels</b> - A 9 part video series showing basic website functionality, database design, and the process of model binding with forms and ViewModels.
