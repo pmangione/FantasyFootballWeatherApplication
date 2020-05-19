@@ -13,6 +13,10 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=mWpimqtJt4Y">Part 2: Naming 2 Important ViewModels</a>
 
+<a href="https://www.youtube.com/watch?v=xM_DcRNaBRw&t=153s">Part 3: Create Helper Method to Query Database</a>
+
+
+
 
 
 
