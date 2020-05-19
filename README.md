@@ -19,7 +19,7 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=8TEbi1wLJC4">Part 5: Filter List of ViewModels Based on Weather Conditions</a>
 
-
+<a href="https://www.youtube.com/watch?v=4POUkZv1bQI">Part 6: Performing Calculations and Using Inheritance in ViewModels</a>
 
 
 
