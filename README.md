@@ -33,6 +33,11 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=IiDshJ2hZ20">Part 1: How the Website Works</a>
 
+<a href="https://www.youtube.com/watch?v=5ulDdM2po0A&t=6s">Website Overview Part 2: Database Structure</a>
+
+
+
+
 
 
 <b><h1><a id="DBDesign">DATABASE DESIGN</a></h1></b>
