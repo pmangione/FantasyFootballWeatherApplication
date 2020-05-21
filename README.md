@@ -35,9 +35,19 @@ I enjoy talking about code almost as much as I enjoy writing code.  That is why 
 
 <a href="https://www.youtube.com/watch?v=5ulDdM2po0A&t=6s">Part 2: Database Structure</a>
 
+<a href="https://www.youtube.com/watch?v=aUBeMpf8d_w">Website Overview Part 3: Example of Database Record</a>
 
+<a href="https://www.youtube.com/watch?v=Duptc5TROWU">Website Overview Part 4: Database Code</a>
 
+<a href="https://www.youtube.com/watch?v=urB3gbKbI0k&t=2s">Website Overview Part 5: Example of ViewModel</a>
 
+<a href="https://www.youtube.com/watch?v=ul8jzQemPOs">Website Overview Part 6: How ViewModel Works On Website</a>
+
+<a href="https://www.youtube.com/watch?v=cV8_IqvqzeU">Website Overview Part 7: Building ViewModel In Controller</a>
+
+<a href="https://www.youtube.com/watch?v=5AKC4vLtaPw">Website Overview Part 8: Binding ViewModel Data in View</a>
+
+<a href="https://www.youtube.com/watch?v=tOgIONB5Aoc">Website Overview Part 9: Retrieving ViewModel Data in Controller</a>
 
 
 <b><h1><a id="DBDesign">DATABASE DESIGN</a></h1></b>
