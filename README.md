@@ -84,7 +84,7 @@ For this project, I created many "Helper Methods" for several reasons:
 1) Reusability
 2) Code Readability
 
-This is an example of one of the Helper Methods in the Controller.  (*****Need to change image to the left)I have circled a line of code where the method, called "makeQBVMGameListForSpecificQB", is used.   In this example, it’s used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
+<a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/CallingHelperMethodExampleOne.JPG"> This is an example of one of the Helper Methods in the Controller.</a>  I have circled a line of code where the method, called "makeQBVMGameListForSpecificQB", is used.   In this example, it’s used to create a list of games played by the quarterback that is then passed to a method which filters out ONLY games played in specific weather.
 Here is an example of how this same Helper Method is used in a different part of the controller. (Need to hyperlink this to the left.)  In this example, it’s used to create a list of games played by the quarterback for games in all types of weather.
 Because the makeQBVMGameListForSpecificQB method is used in several lines of code, the code is more readable if it is abstracted away. Moreover, if a 2nd developer came into the project and needed change the way in which the resulting list from the method was handled, they could clearly see where to go in the code. In addition, if changes were needed for the makeQBVMGameListForSpecificQB itself, the changes would only need to be made in one place.
 
