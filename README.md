@@ -70,10 +70,9 @@ I used model binding to pass many of my values from user entry forms to the cont
 
 1) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormWebsiteScreenShot.PNG">  This is the what the user-entry form looks like on the website</a>.  I have circled the windspeed greater-or-equal than dropdown.
 
-2) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/QBPlayerModel.JPG">  This is the QBPlayer data model.</a>  
-3) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormCodeSnippet.PNG"> This is a code snippet from the "View" for the user entry form.</a>  I have circled the QBPlayer model reference on the top and also the line of code in which the value is bound to the "WindSpeedGreaterOrLessThan" property of the QBPlayerModel object. 
+2) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/UserEntryFormCodeSnippet.PNG"> This is a code snippet from the "View" for the user entry form.</a>  I have circled the QBPlayer model reference on the top and also the line of code in which the value is bound to the "WindSpeedGreaterOrLessThan" property of the QBPlayerModel object. 
 
-4) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ControllerCodeSnippetThatReceivesFormValues.PNG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object.  The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
+3) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ControllerCodeSnippetThatReceivesFormValues.PNG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object.  The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
 
 A) In the long line of code that starts with "var viewmodellist....", I have highlighted in yellow where this value is passed to a method used to retrieve games played under certain weather conditions.  We won't get into the specifics of how that method works in this discussion.
 
