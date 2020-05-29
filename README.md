@@ -72,7 +72,7 @@ I used model binding to pass many of my values from user entry forms to the cont
 
 2) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/BindingExampleOnUserEntryForm.JPG"> This is a code snippet from the "View" for the user entry form.</a>  I have circled the "WindSpeedGreaterOrLessThan" property which is bound to a ViewModel object. 
 
-3) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/ControllerCodeSnippetThatReceivesFormValues.PNG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object.  The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
+3) <a href="https://github.com/pmangione/FantasyFootballWeatherApplication/blob/master/BindingExampleInController.JPG"> This is the code for the part of the "Controller" that receives the "WindSpeedGreaterOrLessThan" value.</a>  The "qbplayer" object is passed in as a parameter and because the value is bound to the WindSpeedGreaterOrLessThan property of the qbplayer object.  The WindSpeedGreaterOrLessThan value is actually passed to two different places:  
 
 A) In the long line of code that starts with "var viewmodellist....", I have highlighted in yellow where this value is passed to a method used to retrieve games played under certain weather conditions.  We won't get into the specifics of how that method works in this discussion.
 
